@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* add top area */
+/* add background color */
+.addBackground {
+  background-color: #c31327;
+}
+/* add link color */
+.addLink {
+  color: #fff;
+}
+/* add Text span */
+.addText {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+/* add Text span */
+.addTextspan {
+  font-size: 13px;
+}
+/* add bottom spacing */
+.addbottomSpacing {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+/* dropdown styling */
+.dropdownBorder {
+  border-radius: 2rem;
+  width: 15rem;
+  height: 3rem;
+}
+.dropdownLeftpadding {
+  margin-left: 0;
+}
+.dropdownRightpadding {
+  margin-left: 5rem;
+}
+/* arrow margin */
+.dropdown-toggle::after {
+  margin-left: 7em;
+}
+/* filter arrow removal */
+.dropdownLeftpadding.dropdown-toggle::after {
+  border-top: 0;
+}
+/* dropdown width */
+ul.dropdown-menu.show {
+  width: 15rem;
+  border-radius: 1rem;
+}
+
+/* Card styling */
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* */
+.row {
+  display: flex;
+  justify-content: center; /* Aligns all columns in the center */
+  gap: 20px; /* Reduces the gap between columns */
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+}
+
+.column {
+  flex: 1; /* Ensures columns adjust dynamically */
+  max-width: 20rem; /* Sets a maximum width for each column */
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures spacing between children */
+  align-items: center;
+  border: 2px solid rgb(222, 222, 222);
+  background-color: rgba(222, 222, 222, 0.562);
+  width: 15rem; /* Increased the width of the cards */
+  height: 60vh; /* Increased the height of the cards */
+  padding: 15px; /* Adjusted padding for spacing */
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  perspective: 2500px;
+}
+
+.cover-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  transition: all 0.5s;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
+.card:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+
+.card:hover .wrapper::before,
+.card:hover .wrapper::after {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after {
+  height: 120px;
+}
+
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.card:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
+
+.character {
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+}
+
+.card:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+}
+
+p {
+  margin: 5px 0; /* Reduced spacing between paragraphs */
+  text-align: center;
+}
+
+/* card row spacing */
+.containerSpacing {
+  margin-bottom: 1rem;
+}
