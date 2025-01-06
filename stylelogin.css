@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+    /* background: linear-gradient(100deg,#73bcf0, #9f5fdf); */
+    background-image: url("./images/try.jpg") ;
+    background-repeat: none;
+    background-size: cover;
+    
+}
+/* login */
+#login{
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    /* background-color: #fff; */
+    margin: 50px auto;
+    backdrop-filter: blur(16px) saturate(149%);
+    -webkit-backdrop-filter: blur(16px) saturate(149%);
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+/* input feild */
+.input_area {
+    background: inherit;
+    border: none;
+    outline: none;
+}
+/* userarea */
+.username{
+    border-bottom: solid rgb(8, 8, 8);
+    margin-top: 40px;
+    margin-bottom: 13px;
+}
+/* inputfield styling */
+#field{
+    margin-top: 7px;
+}
+/* password area */
+.password{
+    border-bottom: solid rgb(8, 8, 8);
+}
+/* forget password area  */
+#forget {
+    text-align: right;
+    margin-top: 6px;
+}
+
+/* link ki styling khatam ki hai */
+.link {
+    text-decoration: none;
+    color: black;
+}
+/* login button ki styling hai */
+.login-btn{
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    /* sir ye apple nahi ho raha */
+    background-image: linear-gradient(#73bcf0, #c674b4, #bb5af0 #9f5fdf);
+}
+/* signup ko center ma kia hai */
+.sign{
+    text-align: center;
+    font-weight: 9px;
+}
+/* icon area hai */
+.icons{
+    text-align: center;
+    margin: 10px;  
+}
+/* footer area hai */
+footer{
+    margin-top: 70px;
+    text-transform: capitalize;
+    
+}
+#span-footer{
+    margin-top: 5px;
+    text-align: center;
+}
+/* text ka size small lana kia lia */
+.text{
+    font-size: 12px;
+    color: rgba(17, 17, 17, 0.856);
+}

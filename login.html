@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="./stylelogin.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <fieldset class="container"> -->
+        <h2 id="login">Login</h2>
+        <form action="">
+            <!-- username area -->
+            <div class="username">
+                <label for="username" id="username"><span class="text">Username</span></label><br />
+                <div id="field">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="input_area" name="username" type="text" placeholder="Type your username" /><br />
+                </div>
+            </div>
+
+            <!-- password area -->
+            <div class="password">
+                <label for="password" id="password"> <span class="text">Password </span> </label><br />
+                <div id="field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" placeholder="Type your password" class="input_area" />
+                </div>
+            </div>
+
+            <!-- forget -->
+            <a href="" class="link">
+                <p id="forget"><span class="text">Forget password</span></p>
+            </a>
+
+            <!-- login -->
+            <input class="login-btn" type="submit" value="Login" /> <br />
+
+            <!-- icons -->
+            <p class="sign">or sign Up using</p>
+        </form>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <a href="" class="link">
+                <p class="sign">or sign Up using</p>
+            </a>
+            <a href="" class="link">
+                <p class="sign" id="span-footer"> sign up</p>
+            </a>
+        </footer>
+
+    </div>
+</body>
+
+</html>

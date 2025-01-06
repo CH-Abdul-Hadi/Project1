@@ -15,306 +15,429 @@
 </head>
 
 <body>
-    <!-- adds -->
-    <div class="container-fuild addbottomSpacing">
-        <div>
-            <div class="col-12 addBackground text-white text-center">
-                <p class="addText">THE GREAT WINTER SALE<br>
-                    <a class="addLink" href="#">Up to 70% off sale styles</a>
-                    + 25% off everything else
-                </p>
-                <span class="addTextspan"> Discount automatically applied at checkout </span>
-            </div>
-        </div>
-    </div>
 
-    <!-- navbar women page -->
-    <div class="container containerSpacing ">
-        <div class="row">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- name logo area -->
+            <a class="navbar-brand NavbarLogo" href="./index.html">Alpha Coders</a>
+            <!-- no idea what its for -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- list -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- home -->
+                    <li class="nav-item navbarlink ">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <!-- new -->
+                    <li class="nav-item navbarlink ">
+                        <a class="nav-link" href="#">New</a>
+                    </li>
+                    <!-- men -->
+                    <li class="nav-item navbarlink ">
+                        <a class="nav-link" href="#">men</a>
+                    </li>
+                    <!-- women -->
+                    <li class="nav-item navbarlink ">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                </ul>
 
-            <!-- text center -->
-            <div class="col">
-                <div class="col">
-                    <h2>
-                        All Women's
-                    </h2>
-                </div>
-            </div>
-
-
-            <div class="col">
-            </div>
-
-            <!-- dropdown right -->
-            <div class="col">
-                <div class="dropdown">
-                    <button
-                        class="btn btn-secondary dropdown-toggle dropdownBorder text-start dropdownRightpadding bg-light text-dark"
-                        type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                        Best Match
+                <form class="d-flex">
+                    <input class="form-control me-2 navbarSearch" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <!-- <li><button class="dropdown-item" type="button">Best Match</button></li> -->
-                        <li><button class="dropdown-item" type="button">Price:low to high</button></li>
-                        <li><button class="dropdown-item" type="button">Price:high to low</button></li>
-                        <li><button class="dropdown-item" type="button">Newest Arrival</button></li>
-                    </ul>
+                </form>
+
+                <ul class="navbar-nav navlogin">
+                    <li class="nav-item navbarlink ">
+                        <a class="nav-link" href="./login.html"><i class="fa-solid fa-user text-dark"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main area -->
+    <div class="mainContainer">
+        <!-- adds -->
+        <div class="container-fuild addbottomSpacing">
+            <div>
+                <div class="col-12 addBackground text-white text-center">
+                    <p class="addText">THE GREAT WINTER SALE<br>
+                        <a class="addLink" href="#">Up to 70% off sale styles</a>
+                        + 25% off everything else
+                    </p>
+                    <span class="addTextspan"> Discount automatically applied at checkout </span>
                 </div>
+            </div>
+        </div>
+
+        <!-- navbar women page -->
+
+        <div class="secondNavbar">
+            <div class="container containerSpacing ">
+                <div class="row">
+
+                    <!-- text center -->
+                    <div class="col">
+                        <div class="col">
+                            <h2>
+                                All Women's
+                            </h2>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                    </div>
+
+                    <!-- dropdown right -->
+
+                    <div class="col">
+                        <div class="dropdown">
+                            <div>
+
+                                <button
+                                    class="btn btn-secondary dropdown-toggle dropdownBorder text-start dropdownRightpadding bg-light text-dark"
+                                    type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Best Match
+                                </button>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <!-- <li><button class="dropdown-item" type="button">Best Match</button></li> -->
+                                    <li><button class="dropdown-item" type="button">Price:low to high</button></li>
+                                    <li><button class="dropdown-item" type="button">Price:high to low</button></li>
+                                    <li><button class="dropdown-item" type="button">Newest Arrival</button></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card area -->
+            <div class="cardMaincontainer">
+                <!-- cards row 1-->
+                <div class="container containerSpacing ">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+                        <!-- cards-1 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-MadisonBoot-TripleBlack-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-MadisonBoot-TripleBlack-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> MadisonBoot</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Regent2.0-Blanco-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Regent2.0-Blanco-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Blanco</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Reign-Nero-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Reign-Nero-02_Web.jpg" class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Nero</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 4 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Reign-Pink-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Reign-Pink-02_Web.jpg" class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Pink</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- cards row 2 -->
+                <div class="container containerSpacing ">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+                        <!-- cards-1 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Royale2.0-Blush-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Royale2.0-Blush-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <img src="./womenImages/GREATS-Womens-Royale2.0-Blush-02_Web.jpg" class="character" />
+                                <p>Blush </p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Royale2.0-LightBlue-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Royale2.0-LightBlue-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> LightBlue</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Royale2.0-Purple-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Royale2.0-Purple-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Purple</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 4 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Royale2.0-Tan-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Royale2.0-Tan-02_Web.jpg" class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Tan</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- cards row 3 -->
+                <div class="container containerSpacing ">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
+                        <!-- cards-1 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-RoyaleKnit2.0-Blanco-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-RoyaleKnit2.0-Blanco-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Blanco</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Charlie-Blanco-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Charlie-Blanco-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Charlie</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Charlie-Nero-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Charlie-Nero-02_Web.jpg" class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> Nero</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- card 4 -->
+                        <div class="column">
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="wrapper">
+                                        <img src="./womenImages/GREATS-Womens-Reign-BlushMulti-01_Web.jpg"
+                                            class="cover-image" />
+                                    </div>
+                                    <img src="./womenImages/GREATS-Womens-Reign-BlushMulti-02_Web.jpg"
+                                        class="character" />
+                                </div>
+                                <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
+                                <p> BlushMulti</p>
+                                <a href="./cart.html">
+                                    <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
+                                        height="30rem">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
     </div>
 
-    <!-- card area -->
-    <div class="cardMaincontainer">
-        <!-- cards row 1-->
-        <div class="container containerSpacing ">
-            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-
-                <!-- cards-1 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-MadisonBoot-TripleBlack-01_Web.jpg"
-                                    class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-MadisonBoot-TripleBlack-02_Web.jpg"
-                                class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> MadisonBoot</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
+    <!-- footer -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="./index.html">Women</a></li>
+                            <!-- <li><a href="#">Hosting</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="./team.html">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>contact us</h3>
+                        <ul>
+                            <li class="footerli">
+                                <h4 class="footerLinks">Email us</h4>
+                                <a href="mailto:sabdulhadi016@gmail.com">@gmail.com</a>
+                            </li>
+                            <li class="footerli">
+                                <h4 class="footerLinks">Address</h4>
+                                <a
+                                    href=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52932.95267022999!2d71.42428083945663!3d33.984582134438455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d9173963c0c2b7%3A0x9b29198791578d06!2sSMIT%20Peshawar%20Campus!5e0!3m2!1sen!2s!4v1736182992354!5m2!1sen!2s">SMIT
+                                    Peshawar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <a href="#"><i class="icon ion-social-facebook fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter fa-brands fa-twitter"></i></a>
+                        <!-- <a href="#"><i class="icon ion-social-snapchat"></i></a> -->
+                        <a href="#"><i class="icon ion-social-instagram fa-brands fa-instagram"></i></a>
+                        <p class="copyright">@alphacoders © 2024</p>
                     </div>
                 </div>
-
-                <!-- card 2 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Regent2.0-Blanco-01_Web.jpg"
-                                    class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Regent2.0-Blanco-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Blanco</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 3 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Reign-Nero-01_Web.jpg" class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Reign-Nero-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Nero</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 4 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Reign-Pink-01_Web.jpg" class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Reign-Pink-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Pink</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-
             </div>
-        </div>
-
-        <!-- cards row 2 -->
-        <div class="container containerSpacing ">
-            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-
-                <!-- cards-1 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Royale2.0-Blush-01_Web.jpg" class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Royale2.0-Blush-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <img src="./womenImages/GREATS-Womens-Royale2.0-Blush-02_Web.jpg" class="character" />
-                        <p>Blush </p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 2 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Royale2.0-LightBlue-01_Web.jpg"
-                                    class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Royale2.0-LightBlue-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> LightBlue</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 3 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Royale2.0-Purple-01_Web.jpg"
-                                    class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Royale2.0-Purple-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Purple</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 4 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Royale2.0-Tan-01_Web.jpg" class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Royale2.0-Tan-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Tan</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-        <!-- cards row 3 -->
-        <div class="container containerSpacing ">
-            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-
-                <!-- cards-1 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-RoyaleKnit2.0-Blanco-01_Web.jpg"
-                                    class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-RoyaleKnit2.0-Blanco-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Blanco</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 2 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Charlie-Blanco-01_Web.jpg" class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Charlie-Blanco-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Charlie</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 3 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Charlie-Nero-01_Web.jpg" class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Charlie-Nero-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> Nero</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- card 4 -->
-                <div class="column">
-                    <div id="cards">
-                        <div class="card">
-                            <div class="wrapper">
-                                <img src="./womenImages/GREATS-Womens-Reign-BlushMulti-01_Web.jpg"
-                                    class="cover-image" />
-                            </div>
-                            <img src="./womenImages/GREATS-Womens-Reign-BlushMulti-02_Web.jpg" class="character" />
-                        </div>
-                        <p>Women's Reign <span>&nbsp;&nbsp; $199.00</span></p>
-                        <p> BlushMulti</p>
-                        <a href="">
-                            <img src="./womenImages/cart.png" alt="" class="imgcart float-end" width="25rem"
-                                height="30rem">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
+        </footer>
     </div>
 
 
